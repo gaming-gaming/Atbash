@@ -1,0 +1,49 @@
+{
+    "name": "DualSense",
+    "buttons": {
+        "0": "face_south",         // Cross
+        "1": "face_east",          // Circle
+        "2": "face_west",          // Square
+        "3": "face_north",         // Triangle
+        "4": "aux_left",           // Share
+        "5": "system",             // PS Button
+        "6": "aux_right",          // Options
+        "7": "stick_left_press",   // L3
+        "8": "stick_right_press",  // R3
+        "9": "bumper_left",        // L1
+        "10": "bumper_right",      // R1
+        "11": "dpad_up",
+        "12": "dpad_down",
+        "13": "dpad_left",
+        "14": "dpad_right",
+        "15": "aux_middle",        // Touchpad button press
+        "16": "mute"               // Mute mic button
+    },
+    "axes": {
+        "0": "stick_left_x",
+        "1": "stick_left_y",
+        "2": "stick_right_x",
+        "3": "stick_right_y",
+        "4": "trigger_left",
+        "5": "trigger_right"
+    },
+    "motion": {
+        "gyro": {
+            "x": "gyro_pitch",     // Angular velocity (degrees/sec or rad/sec)
+            "y": "gyro_yaw",
+            "z": "gyro_roll"
+        },
+        "accelerometer": {
+            "x": "accel_x",        // Acceleration (m/s² or Gs)
+            "y": "accel_y",
+            "z": "accel_z"
+        }
+    },
+    "extras": {
+        "touchpad": "touch_xy",    // 2D position data
+        "lightbar": true,
+        "speaker": true,
+        "mic": true,
+        "player_led": true
+    }
+}
