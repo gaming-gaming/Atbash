@@ -10,16 +10,37 @@
 [![Version](https://img.shields.io/badge/version-v0.1.0-orange)]()
 
 ## Overview
-
 Atbash is a controller input translation tool for using controllers otherwise unsupported on specific consoles. For example: Using a DualSense controller, emulating a wired Xbox 360 controller.
 
 # Tutorial
-
 To use Atbash, [download](https://github.com/gaming-gaming/Atbash/releases/latest) one of the compiled binaries in the releases of this project.
 
 Before starting the script, connect the controller you wish to use to your computer. Upon running the script, you may select the controller you have connected. Afterwards, you must select a controller configuration from a list of json files in `./dat/input_presets/`. Input presets are commented and easily editable, for if you wish to remap your controllers input. After setting up the input controller, you must select what controller to output. Atbash works with various wireless controllers, but may require DIY setup for wired controllers.
 
 # Compiling
-
 To compile Atbash, you will need to download these these libraries:
 - SDL2
+
+# Supported Controllers
+<table>
+  <tr>
+    <th>Controller</th>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>DualSense</td>
+    <td>✅</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>Xbox Series</td>
+    <td>✅</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>Joy-Cons</td>
+    <td>❌</td>
+    <td>❌</td>
+  </tr>
+</table>
