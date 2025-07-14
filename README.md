@@ -19,7 +19,7 @@ Before starting the script, connect the controller you wish to use to your compu
 
 # Compiling
 To compile Atbash, you will need to download these these libraries:
-- SDL2
+- [SDL2](https://github.com/libsdl-org/SDL/releases/tag/release-2.32.8)
 
 # Supported Controllers
 <table>
@@ -34,7 +34,7 @@ To compile Atbash, you will need to download these these libraries:
     <td>❌</td>
   </tr>
   <tr>
-    <td>Xbox Series</td>
+    <td>Xbox Series Controller</td>
     <td>✅</td>
     <td>❌</td>
   </tr>
@@ -42,5 +42,15 @@ To compile Atbash, you will need to download these these libraries:
     <td>Joy-Cons</td>
     <td>✅</td>
     <td>✅</td>
+  </tr>
+  <tr>
+    <td>Switch Pro Controller</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Xbox 360 Controller</td>
+    <td>❌</td>
+    <td>✅ (WIRED ONLY)</td>
   </tr>
 </table>
