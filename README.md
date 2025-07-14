@@ -40,7 +40,7 @@ To compile Atbash, you will need to download these these libraries:
   </tr>
   <tr>
     <td>Joy-Cons</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>✅</td>
+    <td>✅</td>
   </tr>
 </table>
