@@ -13,9 +13,12 @@
 
 </div>
 
-Atbash is a controller input translation tool for using controllers otherwise unsupported on specific consoles. For example: Using a DualSense controller, emulating a wired Xbox 360 controller.
+Atbash is a controller input translation tool for using controllers otherwise unsupported on specific consoles. For example: Using a DualSense as a Switch Pro Controller, or vise versa.
 
 # Tutorial
+## Required Hardware
+To emulate controllers with a wired connection, it is required you have a USB port that supports device mode, such as the ports on the Raspberry Pi Zero family. A male-to-male USB cord with data transfer is also required.
+## Using Atbash
 To use Atbash, [download](https://github.com/gaming-gaming/Atbash/releases/latest) one of the compiled binaries in the releases of this project.
 
 Before starting the script, connect the controller you wish to use to your computer. Upon running the script, you may select the controller you have connected. Afterwards, you must select a controller configuration from a list of json files in `./dat/input_presets/`. Input presets are commented and easily editable, for if you wish to remap your controllers input. After setting up the input controller, you must select what controller to output. Atbash works with various wireless controllers, but may require DIY setup for wired controllers.
