@@ -2,14 +2,17 @@
   <img src="https://raw.githubusercontent.com/gaming-gaming/Atbash/refs/heads/main/brand/gradient/logo_text_subtitle.png" width="75%">
 </p>
 
-# Atbash: The Universal Controller Adapter
+<h1 align="center">Atbash: The Universal Controller Adapter</h1>
 
-[![License: GPL](https://img.shields.io/github/license/gaming-gaming/Atbash)](https://github.com/gaming-gaming/Atbash/blob/main/LICENSE)
-[![Platform Support](https://img.shields.io/badge/platforms-windows%20%7C%20linux-blue)]()
-[![Archs](https://img.shields.io/badge/archs-x86%20|%20x64%20|%20armv7%20|%20aarch64-lightgrey)]()
-[![Version](https://img.shields.io/badge/version-v0.1.0-orange)]()
+<div align="center">
 
-## Overview
+  [![License: GPL](https://img.shields.io/github/license/gaming-gaming/Atbash)](https://github.com/gaming-gaming/Atbash/blob/main/LICENSE)
+  [![Platform Support](https://img.shields.io/badge/platforms-windows%20%7C%20linux-blue)]()
+  [![Archs](https://img.shields.io/badge/archs-x86%20|%20x64%20|%20armv7%20|%20aarch64-lightgrey)]()
+  [![Version](https://img.shields.io/badge/version-v0.1.0-orange)]()
+
+</div>
+
 Atbash is a controller input translation tool for using controllers otherwise unsupported on specific consoles. For example: Using a DualSense controller, emulating a wired Xbox 360 controller.
 
 # Tutorial
